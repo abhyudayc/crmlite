@@ -1,0 +1,158 @@
+body {
+	overflow-x: hidden;
+}
+@media (min-width: 768px){
+	.navbar {
+	    border-radius:none;
+	}
+}
+#formid{
+    width:30%;
+}
+.form-group {
+	margin:10px;
+}
+.indexpage h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:darkred;
+    text-align: center;
+}
+.navbar {
+	margin:0;
+	border-radius: 0;
+}
+.filtercls{
+	background-color:#eeeeee;
+    width: 40%;
+    display: -webkit-box;
+    padding: 10px 0px;
+    width: 100vw;
+}
+.btn-menu{
+	float:right;
+	margin: 35px 5px;
+}
+.ctable{
+    overflow-x: scroll;
+}
+.ctable tr {
+    cursor: pointer;
+}
+table{
+    width:100%;
+}
+th, td {min-width:180px;text-align: center; }
+td{margin: 0; padding: 0;text-align: center;}
+
+/* login card */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    border-radius: 5px;
+    margin:auto;
+    z-index: 2;
+    background-color: white;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .loginform{
+      padding: 150px;
+      z-index: 2;
+      position: relative;
+  }
+  .loginform form{
+    padding: 50px;
+  }
+  .loginform input[type="submit"]{
+      padding: 10px 40px;
+      left:0;
+      right:0;
+      display: block;
+      margin: auto;
+      font-size: 15px;
+  }
+.bgcolor{
+   background-image: url("../images/28-wonderland-gradient.jpg");
+   z-index: -1;
+}
+.ctablerow{
+    display: block; padding: 0; margin: 0; border: 0; width: 100%;
+}
+
+/* admin page */
+.adminSelectors{
+    width:30%;
+}
+
+.sideNav {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.sideNav ul{
+    list-style: none;
+    padding-top: 50%;
+}
+
+.sideNav ul li{
+    margin: 10px 0px;
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sideNav li a{
+    /* text-decoration: none; */
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#newUserId form, #target form, #exec-deployment form{
+    width:50%;
+}
+
+.popupDisplay{
+    background-color: white;
+    height: 30vh;
+    padding: 30px;
+  
+}
+
+.popupDisplay p{
+    text-align: center;
+}
+
+.popupDisplay input[type="submit"]{
+       /* float: right; */
+    padding: 8px 45px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 95px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    left: 0;
+}
+
+.view_more {
+	display: block;
+    margin: auto;
+    padding: 5px 60px;
+    font-size: 20px
+}

@@ -1,0 +1,59 @@
+body {
+    overflow-x: hidden;
+}
+
+.displayReminer{
+    height: 150px;
+    width:100%;
+    overflow-y: scroll;
+    background-color:darkcyan;
+}
+.addReminer{
+    height: 180px;
+    width:100%;
+    border: 1px solid darkcyan;
+    color:black;
+    padding: 10px;
+}
+.reminder-section{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width:20%;
+    float: right;
+    padding: 20px;
+/*     -webkit-transition: all .5s ease-in-out; */
+/*     -moz-transition: all .5s ease-in-out; */
+/*     -ms-transition: all .5s ease-in-out; */
+/*     -o-transition: all .5s ease-in-out; */
+/*     transition: all .5s ease-in-out; */
+}
+.reminderField{
+    display: block;
+    margin: 10px;
+}
+.rightCol{
+    z-index: 999;
+    padding: 0;
+    position: absolute;
+}
+
+.bdsubheading {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bdheading {
+    text-align: center;
+}
+.filter-group {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.form-group {
+    margin: 20px;
+}
